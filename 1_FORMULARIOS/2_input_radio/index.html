@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Básico</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </div>
+        <!-- input radio -->
+        <div>
+            <p>Quantas vezes o Brasil ganhou a copa do mundo?</p>
+            <div>
+                <input type="radio" id="4" nome="perdeu">
+                <label for="4">4 vezes</label>
+            
+            </div>
+            <div>
+                <input type="radio" id="5"nome="ganhou">
+                <label for="4">5 vezes</label>
+            
+            </div>
+           
+        </div>
+        <!-- select -->
+        <div>
+            <label for="turma">Escolha sua turma:</label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="01ta">01TA</option>
+                <option value="01tb">01TB</option>
+                <option value="01tc">01TC</option>
+            </select>
+        </div>
+        <button>Enviar</button>
+    </form>   
+</body>
+</html>
