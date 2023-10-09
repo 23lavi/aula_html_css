@@ -1,0 +1,39 @@
+.caixa_vermelha{
+    border: 3px dashed red;
+    width: 350px;
+}
+
+.paragrafo1{
+    color: rgb(0, 0, 0);
+
+}
+
+.caixa_azul{
+    border: 3px dashed blue;
+    width: 400px;
+}
+
+.paragrafo2{
+    color: blue;
+    background-color: rgb(148, 201, 236);
+}
+
+.caixa_laranja{
+    border: 3px dashed(255, 136, 0);
+    width: 450px;
+}
+
+.paragrafo3{
+    color: orange;
+
+}
+
+.caixa_verde{
+    border: 3px solid green;
+    width: 500px;
+}
+
+.paragrafo4{
+   color: green;
+   background-color: rgb(148, 209, 148);
+}
